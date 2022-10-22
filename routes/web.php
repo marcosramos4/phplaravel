@@ -31,7 +31,7 @@ echo route('miruta').'/Cinco<br>';
 });
 
 Route::get('parametro/{nombre?}', function ($nombre="invitado") {
-    return "estas en la pagina contacto bienvenido $nombre";
+    return "Esta pagina estamal $nombre";
 });
 
 Route::get('rutas',['as'=>'miruta',function (){
